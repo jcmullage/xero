@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Regression Test Suite]" parallel="classes">
+  <listeners>
+    <listener class-name="payroll.base.TestListeners"/>
+  </listeners>
+  <test thread-count="5" name="Application Test(failed)" parallel="classes">
+    <parameter name="excel" value="Login"/>
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="payroll.testclasess.LoginTest">
+        <methods>
+          <include name="commonSetUp"/>
+          <include name="logTotheSystem"/>
+          <include name="commonTearDown"/>
+        </methods>
+      </class> <!-- payroll.testclasess.LoginTest -->
+    </classes>
+  </test> <!-- Application Test(failed) -->
+</suite> <!-- Failed suite [Regression Test Suite] -->
