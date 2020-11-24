@@ -37,6 +37,6 @@ public class BaseTest {
 	@AfterClass
 	public void commonTearDown() {
 		WebDriverFactory.getInstance().quitDriver();
-		// driver.quit();
+		driver.quit();
 	}
 }

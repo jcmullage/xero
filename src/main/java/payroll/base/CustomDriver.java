@@ -171,6 +171,7 @@ public class CustomDriver {
      *      *                tag=>example, xpath=>//example, link=>example
      * @return boolean if element is present or not
      */
+    
     public boolean isElementPresent(String locator, String info) {
         List<WebElement> elementList = getElementList(locator, info);
         int size = elementList.size();

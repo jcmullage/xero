@@ -10,11 +10,7 @@ import payroll.utilities.ExcelUtility;
 import payroll.base.BaseTest;
 
 public class LoginTest extends BaseTest {
-	
-	
-	
 
-	
     @DataProvider(name = "loginDetails")
     public Object[][] getVerifySearchCourseData(){
         Object[][] testData = ExcelUtility.getTestData("verify_login");

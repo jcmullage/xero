@@ -54,3 +54,57 @@
 20:53:02.950 INFO  base.CustomDriver -Clicked On :: Press Login Button
 20:53:02.957 INFO  base.TestListeners -onTestSuccess -> Test Method Name: logTotheSystem
 20:53:04.538 INFO  base.TestListeners -onFinish -> Test Tag Name: Application Test
+21:08:23.906 INFO  utilities.Util -Current Date and Time :: 11_21_2020 21_08_23
+21:08:23.924 INFO  utilities.ExtentManager -*********** Report Path ***********
+21:08:23.924 INFO  utilities.ExtentManager -/Users/samithganepola/xero/reports/AutomationReport_11_21_2020 21_08_23.html
+21:08:23.924 INFO  utilities.ExtentManager -*********** Report Path ***********
+21:08:24.479 INFO  base.TestListeners -onStart -> Test Tag Name: Application Test
+21:08:24.479 INFO  base.TestListeners -These methods will be executed in this <test> tag
+21:08:24.480 INFO  base.TestListeners -logTotheSystem
+21:08:25.708 INFO  base.WebDriverFactory -OS Name from system property :: mac
+21:08:25.708 INFO  base.WebDriverFactory -Driver Binary :: /Users/samithganepola/xero/drivers/geckodriver
+21:08:34.683 INFO  base.CustomDriver -Waiting for max:: 10 seconds for element to be available
+21:08:34.978 INFO  base.CustomDriver -Element appeared on the web page
+21:08:35.165 INFO  base.CustomDriver -Send Keys on element :: Enter Email with data :: jcmullage@gmail.com
+21:08:35.376 INFO  base.CustomDriver -Send Keys on element :: Enter Password with data :: 2wsx1qaz~
+21:08:43.255 INFO  base.CustomDriver -Clicked On :: Press Login Button
+21:08:43.267 INFO  base.TestListeners -onTestSuccess -> Test Method Name: logTotheSystem
+21:08:43.346 INFO  base.CustomDriver -Waiting for max:: 10 seconds for element to be available
+21:08:53.413 ERROR base.CustomDriver -Element not appeared on the web page
+21:08:56.441 ERROR base.CustomDriver -Element not found with: id=>email
+21:08:56.452 ERROR base.CustomDriver -Cannot send keys on element :: Enter Email with data :: jcmullage@gmail.com
+21:08:59.493 ERROR base.CustomDriver -Element not found with: id=>password
+21:08:59.515 ERROR base.CustomDriver -Cannot send keys on element :: Enter Password with data :: 3131313~
+21:09:02.559 ERROR base.CustomDriver -Element not found with: id=>submitButton
+21:09:02.561 ERROR base.CustomDriver -Cannot click on :: Press Login Button
+21:09:02.561 INFO  utilities.Util -Current Date and Time :: 11_21_2020 21_09_02
+21:09:02.783 INFO  base.CustomDriver -Screen Shot Was Stored at: /Users/samithganepola/xero/reports//screenshots/_Click ERROR_11_21_2020 21_09_02.png
+21:09:02.785 INFO  base.TestListeners -onTestSuccess -> Test Method Name: logTotheSystem
+21:09:03.910 INFO  base.TestListeners -onFinish -> Test Tag Name: Application Test
+21:09:56.187 INFO  utilities.Util -Current Date and Time :: 11_21_2020 21_09_56
+21:09:56.194 INFO  utilities.ExtentManager -*********** Report Path ***********
+21:09:56.194 INFO  utilities.ExtentManager -/Users/samithganepola/xero/reports/AutomationReport_11_21_2020 21_09_56.html
+21:09:56.194 INFO  utilities.ExtentManager -*********** Report Path ***********
+21:09:56.601 INFO  base.TestListeners -onStart -> Test Tag Name: Application Test
+21:09:56.601 INFO  base.TestListeners -These methods will be executed in this <test> tag
+21:09:56.601 INFO  base.TestListeners -logTotheSystem
+21:09:57.418 INFO  base.WebDriverFactory -OS Name from system property :: mac
+21:09:57.418 INFO  base.WebDriverFactory -Driver Binary :: /Users/samithganepola/xero/drivers/geckodriver
+21:10:05.908 INFO  base.CustomDriver -Waiting for max:: 10 seconds for element to be available
+21:10:06.137 INFO  base.CustomDriver -Element appeared on the web page
+21:10:06.366 INFO  base.CustomDriver -Send Keys on element :: Enter Email with data :: jcmullage@gmail.com
+21:10:06.439 INFO  base.CustomDriver -Send Keys on element :: Enter Password with data :: 2wsx1qaz~
+21:10:14.571 INFO  base.CustomDriver -Clicked On :: Press Login Button
+21:10:14.585 INFO  base.TestListeners -onTestSuccess -> Test Method Name: logTotheSystem
+21:10:14.673 INFO  base.CustomDriver -Waiting for max:: 10 seconds for element to be available
+21:10:25.176 ERROR base.CustomDriver -Element not appeared on the web page
+21:10:28.260 ERROR base.CustomDriver -Element not found with: id=>email
+21:10:28.264 ERROR base.CustomDriver -Cannot send keys on element :: Enter Email with data :: jcmullage@gmail.com
+21:10:31.288 ERROR base.CustomDriver -Element not found with: id=>password
+21:10:31.291 ERROR base.CustomDriver -Cannot send keys on element :: Enter Password with data :: 3131313~
+21:10:34.327 ERROR base.CustomDriver -Element not found with: id=>submitButton
+21:10:34.330 ERROR base.CustomDriver -Cannot click on :: Press Login Button
+21:10:34.330 INFO  utilities.Util -Current Date and Time :: 11_21_2020 21_10_34
+21:10:34.519 INFO  base.CustomDriver -Screen Shot Was Stored at: /Users/samithganepola/xero/reports//screenshots/_Click ERROR_11_21_2020 21_10_34.png
+21:10:34.520 INFO  base.TestListeners -onTestSuccess -> Test Method Name: logTotheSystem
+21:10:35.844 INFO  base.TestListeners -onFinish -> Test Tag Name: Application Test
